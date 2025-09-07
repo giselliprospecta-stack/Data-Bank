@@ -1,13 +1,56 @@
-<!DOCTYPE html> 
-<html lang="pt-BR"> 
-<head> 
-  <meta charset="UTF-8"> 
-</head> 
-<body> 
-  <ul> 
-    <li><a href="arquivos/documento1.pdf" target="_blank">📄 Documento 1</a></li> 
-    <li><a href="https://drive.google.com/drive/folders/1ezT3kftwlcUI6cE-BqMvPUt_I1w2VHv1?usp=drive_link" target="_blank">🖼️ Imagem</a></li> 
-  </ul> 
-</body> 
-</html> 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>📂 Biblioteca de Arquivos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+      padding: 40px;
+    }
+    h1 {
+      color: #0056b3;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: auto;
+    }
+    li {
+      background: #fff;
+      margin: 10px 0;
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+    li:hover {
+      transform: scale(1.02);
+    }
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #0056b3;
+    }
+    a:hover {
+      color: #ff6600;
+    }
+  </style>
+</head>
+<body>
+  <h1>📂 Biblioteca de Arquivos</h1>
+  <ul>
+    <!-- Arquivos pequenos no GitHub -->
+    <li><a href="arquivos/documento1.pdf" target="_blank">📄 Documento 1</a></li>
+    <li><a href="arquivos/imagem.jpg" target="_blank">🖼 Imagem</a></li>
 
+    <!-- Arquivo grande no Google Drive -->
+    <li><a href="https://drive.google.com/file/d/SEU-LINK-ID/view?usp=sharing" target="_blank">📄 Documento Grande (Google Drive)</a></li>
+  </ul>
+</body>
+</html>
